@@ -1,5 +1,3 @@
-
-
 "use client";
 
 import { NextStudio } from 'next-sanity/studio';
@@ -9,9 +7,4 @@ const AdminPage = () => {
   return <NextStudio config={config} />
 }
 
-export default AdminPage; 
-
-
-
-// const StudioPage = () => ...
-// export default StudioPage
+export default AdminPage;
