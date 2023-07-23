@@ -7,7 +7,7 @@ export default async function Home() {
   const projects = await getProjects();
 
   return (
-    <div className="max-w-5xl mx-auto py-20">
+    <div>
       <h1 className="text-7xl font-extrabold">
         {" "}
         Hello I&lsquo;m{" "}
