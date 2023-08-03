@@ -22,9 +22,17 @@ export default async function Home() {
       </h1>
 
       <p className="mt-3 text-xl text-gray-600">
-        Aloha everyone! Below you can or can not check out 
+        Welcome! Below you can check out 
         my projects and hobbies.
       </p>
+
+      <Image 
+      src={'/Images/cv_bilde.jpg'}
+      alt="picture of Jacob"
+      width={750}
+      height={300}
+      >
+      </Image>
 
       <h2 className="mt-24 font-bold text-gray-700 text-3xl">My Projects</h2>
 
