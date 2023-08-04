@@ -2,14 +2,13 @@ import { getHobbies, getProjects } from "@/sanity/sanity-utils";
 import Image from "next/image";
 import Link from "next/link";
 
-
 export default async function Home() {
   const projects = await getProjects();
   const hobbies = await getHobbies();
 
   return (
     <div>
-      <h1 className="text-7xl font-extrabold">
+      <h1 className="text-4xl font-extrabold">
         {" "}
         Hello I&lsquo;m{" "}
         <span
@@ -22,17 +21,18 @@ export default async function Home() {
       </h1>
 
       <p className="mt-3 text-xl text-gray-600">
-        Welcome! Below you can check out 
-        my projects and hobbies.
+        Welcome! Below you can check out my projects and hobbies.
       </p>
 
-      <Image 
-      src={'/Images/cv_bilde.jpg'}
-      alt="picture of Jacob"
-      width={750}
-      height={300}
-      >
-      </Image>
+      <div className="flex justify-end">
+        <Image
+          className="object-contain" //trengs kanskje ikke.
+          src={"/Images/cv_bilde.jpg"}
+          alt="picture of Jacob"
+          width={150}
+          height={150}
+        ></Image>
+      </div>
 
       <h2 className="mt-24 font-bold text-gray-700 text-3xl">My Projects</h2>
 
