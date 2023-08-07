@@ -24,13 +24,13 @@ export default async function Home() {
         Welcome! Below you can check out my projects and hobbies.
       </p>
 
-      <div className="flex justify-end">
+      <div className="flex justify-end -mt-20">
         <Image
-          className="object-contain" //trengs kanskje ikke.
+          className="object-contain rounded-lg" //object-contain trengs kanskje ikke.
           src={"/Images/cv_bilde.jpg"}
           alt="picture of Jacob"
-          width={150}
-          height={150}
+          width={200}
+          height={200}
         ></Image>
       </div>
 
