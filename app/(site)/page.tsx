@@ -20,7 +20,7 @@ export default async function Home() {
         !
       </h1>
 
-      <p className="mt-3 text-xl text-gray-600">
+      <p className="mt-3 text-xl text-gray-600 w-80">
         Welcome! Below you can check out my projects and hobbies.
       </p>
 
