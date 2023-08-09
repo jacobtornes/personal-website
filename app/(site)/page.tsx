@@ -9,19 +9,20 @@ export default async function Home() {
   return (
     <div>
       <h1 className="text-4xl font-extrabold">
-        {" "}
-        Hello I&lsquo;m{" "}
+        {/* {" "}
+        Hello I&lsquo;m{" "} */}
+        {' '}Welcome{' '} 
         <span
           className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600
       bg-clip-text text-transparent"
         >
-          Jacob
+          Stranger!
         </span>
         !
       </h1>
 
-      <p className="mt-3 text-xl text-gray-600 w-80">
-        Welcome! Below you can check out my projects and hobbies.
+      <p className="mt-4 text-xl text-gray-600 w-80">
+        Jacob Tornes is a developer from Norway eager to face challenges and discover new things. Below you can check out his projects and hobbies.
       </p>
 
       <div className="flex justify-end -mt-20">
