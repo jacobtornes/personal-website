@@ -8,24 +8,28 @@ export default async function Home() {
 
   return (
     <div>
-      <h1 className="text-4xl font-extrabold">
-        {/* {" "}
-        Hello I&lsquo;m{" "} */}
-        {' '}Welcome{' '} 
-        <span
-          className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600
+      <div className="flex ">
+        <div className="mr-4">
+
+          
+          <h1> Full-stack developer</h1>
+          <h1 className="text-4xl font-extrabold">
+            Hello, my name is <br></br>
+            <span
+              className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600
       bg-clip-text text-transparent"
-        >
-          Stranger!
-        </span>
-        !
-      </h1>
+            >
+            Jacob Tornes
+            </span>
+            !
+          </h1>
 
-      <p className="mt-4 text-xl text-gray-600 w-80">
-        Jacob Tornes is a developer from Norway eager to face challenges and discover new things. Below you can check out his projects and hobbies.
-      </p>
+          <p className="mt-4 text-xl text-gray-600 w-80">
+            Developer from Norway eager to face challenges and
+            discover new things. 
+          </p>
+        </div>
 
-      <div className="flex justify-end -mt-20">
         <Image
           className="object-contain rounded-lg" //object-contain trengs kanskje ikke.
           src={"/Images/cv_bilde.jpg"}
@@ -34,6 +38,21 @@ export default async function Home() {
           height={200}
         ></Image>
       </div>
+
+      {/* <div className="flex items-center">
+      <h1 className="text-2xl mr-4">Your Text Here</h1>
+      <img src="path/to/image.jpg" alt="description" className="w-16 h-16"/>
+    </div> */}
+
+      {/* <div className="flex justify-end">
+        <Image
+          className="object-contain rounded-lg" //object-contain trengs kanskje ikke.
+          src={"/Images/cv_bilde.jpg"}
+          alt="picture of Jacob"
+          width={200}
+          height={200}
+        ></Image>
+      </div> */}
 
       <h2 className="mt-24 font-bold text-gray-700 text-3xl">My Projects</h2>
 
