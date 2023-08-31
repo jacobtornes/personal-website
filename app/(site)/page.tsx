@@ -12,16 +12,12 @@ export default async function Home() {
         <div className="mr-4">
 
           
-          <h1> Full-stack developer</h1>
+          <h3 className="text-custom-gold"> Full-stack developer</h3>
           <h1 className="text-4xl font-extrabold">
             Hello, my name is <br></br>
-            <span
-              className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600
-      bg-clip-text text-transparent"
-            >
+            
             Jacob Tornes
-            </span>
-            !
+            
           </h1>
 
           <p className="mt-4 text-xl text-gray-600 w-80">
