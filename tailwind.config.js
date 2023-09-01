@@ -11,7 +11,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        'playfair':['Playfair Display', 'serif']
+        'playfair':['Playfair Display', 'serif'],
+        'nunito':['Nunito', 'sans-serif']
       },
       colors: {
         'custom-gold': '#FDC435'

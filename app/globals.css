@@ -4,4 +4,10 @@
 
 
 /* Fonts  */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+    /* Playfair Display */
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');  
+    
+    /* Nunito */
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
