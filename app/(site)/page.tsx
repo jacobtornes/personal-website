@@ -12,8 +12,8 @@ export default async function Home() {
         <div className="mr-4">
 
           
-          <h3 className="text-custom-gold"> Full-stack developer</h3>
-          <h1 className="text-4xl font-extrabold">
+          <h3 className="text-custom-gold"> FULL-STACK DEVELOPER</h3>
+          <h1 className="text-4xl font-playfair-black">
             Hello, my name is <br></br>
             
             Jacob Tornes

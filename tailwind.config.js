@@ -10,6 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        'playfair':['Playfair Display', 'serif']
+      },
       colors: {
         'custom-gold': '#FDC435'
       }
